@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape android:gravity="center" >
+            <stroke
+                android:width="@dimen/stroke_buttonSize"
+                android:color="@color/button_border" />
+
+            <gradient
+                android:angle="270"
+                android:endColor="@color/layout_background"
+                android:gradientRadius="50"
+                android:startColor="@color/main_background"
+                android:type="sweep" />
+
+            <padding
+                android:bottom="@dimen/stroke_buttonSize"
+                android:left="@dimen/stroke_buttonSize"
+                android:right="@dimen/stroke_buttonSize"
+                android:top="@dimen/stroke_buttonSize" />
+
+            <corners android:radius="@dimen/corner_button_Size" />
+
+            <size
+                android:height="@dimen/buttonSize"
+                android:width="@dimen/buttonSize" />
+        </shape>
+    </item>
+    <item>
+        <selector
+            android:constantSize="true"
+            android:dither="true"
+            android:variablePadding="true" >
+            <item
+                android:state_focused="true"
+                android:state_selected="true">
+                <shape android:gravity="center" >
+                    <solid android:color="#990000FF" />
+
+                    <size
+                        android:height="@dimen/buttonSize"
+                        android:width="@dimen/buttonSize" />
+
+                    <corners android:radius="@dimen/corner_button_Size" />
+                </shape>
+            </item>
+            <item android:state_pressed="true">
+                <shape android:gravity="center" >
+                    <solid android:color="#99FF0000" />
+
+                    <size
+                        android:height="@dimen/buttonSize"
+                        android:width="@dimen/buttonSize" />
+
+                    <corners android:radius="@dimen/corner_button_Size" />
+                </shape>
+            </item>
+            <item>
+                <shape android:gravity="center" >
+                    <solid android:color="#99FFFF00" />
+
+                    <size
+                        android:height="@dimen/buttonSize"
+                        android:width="@dimen/buttonSize" />
+
+                    <corners android:radius="@dimen/corner_button_Size" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+
+</layer-list>

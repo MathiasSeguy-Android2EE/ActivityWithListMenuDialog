@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">ActivityWithListMenuDialog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Show</string>
+    <string name="title_activity_main">First Activity</string>
+    <string name="btnAdd">Add</string>
+    <string name="hint">Enter your message here</string>
+    <string name="hello">Hello JCertif 2012</string>
+    <!-- Dialog simple text -->
+    <string name="dialog_message">Hello. This is the Dialog message</string>
+    <string name="dialog_Title">This is the title :o)</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="ToastMessage">Hello, I am a custom Toast. And the user click on %1$b</string>
+
+</resources>

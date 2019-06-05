@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="marginVert">5dp</dimen>
+    <dimen name="marginHori">5dp</dimen>
+    <dimen name="paddingVert">5dp</dimen>
+    <dimen name="paddingHori">8dp</dimen>
+    <dimen name="textSize">12sp</dimen>
+    <dimen name="textSizeLarge">14sp</dimen>
+    <dimen name="buttonPadding">30dp</dimen>
+    <dimen name="buttonSize">50dp</dimen>
+    <dimen name="corner_button_Size">150dp</dimen>
+    <dimen name="stroke_buttonSize">8dp</dimen>
+    <dimen name="shape_stroke_Size">1dp</dimen>
+    <dimen name="shape_corner_Size">10dp</dimen>
+
+</resources>

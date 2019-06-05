@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <resources>
+      <!-- Style for Button -->
+    <!-- ************************ -->
+    
+     <style name="cocoaheadsBtn">
+        <item name="android:textSize">@dimen/textSize</item> 
+        <item name="android:textStyle">bold</item>        
+        <item name="android:layout_marginBottom">@dimen/marginVert</item>
+        <item name="android:layout_marginTop">@dimen/marginVert</item>
+    </style>
+    <!-- Style for TextView -->
+    <!-- ************************ -->
+    
+    <style name="cocoaheadsTxv" parent="cocoaheadsBtn">
+        <item name="android:background">@color/main_background</item>
+        <item name="android:paddingLeft">@dimen/paddingHori</item>
+        <item name="android:paddingRight">@dimen/paddingHori</item>
+        <item name="android:paddingTop">@dimen/paddingVert</item>
+        <item name="android:paddingBottom">@dimen/paddingVert</item>
+        <item name="android:textColor">@color/main_text_frgd</item>
+        <item name="android:layout_marginLeft">@dimen/marginHori</item>
+        <item name="android:layout_marginRight">@dimen/marginHori</item>
+        <item name="android:layout_marginBottom">@dimen/marginVert</item>
+        <item name="android:layout_marginTop">@dimen/marginVert</item>
+    </style>
+     <!-- Style for Title -->
+    <!-- ************************ -->
+    <style name="cocoaheadsTitle" parent="cocoaheadsTxv">
+         <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">5.0</item>
+        <item name="android:shadowColor">@color/main_background</item>
+    </style>
+
+    <!-- Style for EditText -->
+    <!-- ************************ -->
+    
+    <style name="cocoaheadsEdt" parent="cocoaheadsTxv">
+        <item name="android:textSize">@dimen/textSizeLarge</item> 
+        <item name="android:background">@color/main_edt_background</item>
+        <item name="android:textColor">@color/main_edt_frgd</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    
+    <!-- Style for ListArray -->
+    
+    <style name="cocoaheadsListOdd" parent="cocoaheadsTxv">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="cocoaheadsList" parent="cocoaheadsTxv">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    
+
+</resources>
